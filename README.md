@@ -2,16 +2,16 @@
 
 ## Установка pcsc*
 
-`sudo apt install pcsc-tools`
-
-По необходимости: 
-`sudo apt-get install libccid pcscd libpcsclite1`
-
 Проверить, что система видит токен:
 ![pcsc_scan](https://user-images.githubusercontent.com/77896951/141649025-d9e0bcdf-c270-4438-ba73-6bdf83bc55fd.png)
 
 Если система не видит токен, необходимо установить драйвер:
 [ASEDrive Driver](https://www.aladdin-rd.ru/support/downloads/readers)
+
+`sudo apt install pcsc-tools`
+
+По необходимости: 
+`sudo apt-get install libccid pcscd libpcsclite1`
 
 
 ## Установка Safenet Authentication Client
@@ -28,7 +28,7 @@
 
 Открыть настройки управления крипто-устройствами нажав кнопку Security Devices. Если в правой части списка не появился пункт с токеном, его нужно добавить вручную, нажав кнопку Load, задав имя для устройства и путь к модулю pkcs11:
 `/usr/lib/libeTPkcs11.so`
-Firefox, как snap-пакет не видит устройство.
+Проблема: Firefox, как snap-пакет не видит устройство, нужно установить не snap-версию.
 
 ![sec_device](https://user-images.githubusercontent.com/77896951/141650184-385ec9a1-cf28-470d-8315-652028b791f4.png)
 
