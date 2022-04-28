@@ -2,20 +2,17 @@
 
 ## Установка pcsc*
 
-Проверить, что система видит токен:
+Проверить, что система видит токен: pcsc_scan
 ![pcsc_scan](https://user-images.githubusercontent.com/77896951/141649025-d9e0bcdf-c270-4438-ba73-6bdf83bc55fd.png)
 
-Если система не видит токен, необходимо установить драйвер:
-[ASEDrive Driver](https://www.aladdin-rd.ru/support/downloads/readers)
+Если система не видит токен, необходимо установить:
+`sudo apt install pcscd pcsc-tools`
 
-`sudo apt install pcsc-tools`
-
-По необходимости: 
-`sudo apt-get install libccid pcscd libpcsclite1`
-
+По необходимости стартовать pcscd
 
 ## Установка Safenet Authentication Client
-Найдите в сети и установите deb-пакет.
+Потребуется установить libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
+safenet найдите в сети и установите deb-пакет.
 
 ## Настройка Firefox
 
