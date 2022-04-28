@@ -11,8 +11,9 @@
 По необходимости стартовать pcscd
 
 ## Установка Safenet Authentication Client
-Потребуется установить libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb
-safenet найдите в сети и установите deb-пакет.
+Потребуется установить libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb. 
+
+Safenet найдите в сети и установите deb-пакет.
 
 ## Настройка Firefox
 
