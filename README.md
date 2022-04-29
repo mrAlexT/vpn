@@ -47,7 +47,7 @@ Safenet найдите в сети и установите deb-пакет.
 
 ![citrix_rec_error](https://user-images.githubusercontent.com/77896951/141650675-dbecba86-171a-4534-abb6-e9903ee557f1.png)
 
-необходимо сертификат "VTB Group Root CA.crt" в *.cer сконвертировать в *.pem и скопировать его в папку /opt/Citrix/ICAClient/keystore/cacerts/
+необходимо сертификат "VTB Group Root CA.cer" *.cer сконвертировать в *.pem и скопировать его в папку /opt/Citrix/ICAClient/keystore/cacerts/
 
 `sudo cp "VTB Group Root CA.crt" /opt/Citrix/ICAClient/keystore/cacerts/`
 
