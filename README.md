@@ -41,13 +41,13 @@ Safenet найдите в сети и установите deb-пакет.
 
 ## Установка Сitrix-receiver
 
-[Устанавливаем](https://www.citrix.com/ru-ru/downloads/citrix-receiver/linux/) deb-пакет
+Устанавливаем citrix workspace app.
 
-Если в процессе подключения возникает ошибка:
+Если в процессе подключения возникает ошибка либо аналогичная (SSL):
 
 ![citrix_rec_error](https://user-images.githubusercontent.com/77896951/141650675-dbecba86-171a-4534-abb6-e9903ee557f1.png)
 
-необходимо переименовать сертификат в *.crt и скопировать его в папку /opt/Citrix/ICAClient/keystore/cacerts/
+необходимо сертификат "VTB Group Root CA.crt" в *.cer сконвертировать в *.pem и скопировать его в папку /opt/Citrix/ICAClient/keystore/cacerts/
 
 `sudo cp "VTB Group Root CA.crt" /opt/Citrix/ICAClient/keystore/cacerts/`
 
