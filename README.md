@@ -30,6 +30,7 @@ Safenet найдите в сети и установите deb-пакет.
 
 ![sec_device](https://user-images.githubusercontent.com/77896951/141650184-385ec9a1-cf28-470d-8315-652028b791f4.png)
 
+Добавить в довереннные: https://localhost:14186/id
 
 ## Установка SFX:
 
