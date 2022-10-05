@@ -40,7 +40,8 @@ wget https://starkers.keybase.pub/snx_install_linux30.sh?dl=1 -O snx_install.sh
 sudo apt-get install libstdc++5:i386 libx11-6:i386 libpam0g:i386
 
 chmod a+rx snx_install.sh
-sudo ./snx_install.sh`
+
+sudo ./snx_install.sh
 
 ./cshell_install.sh
 
