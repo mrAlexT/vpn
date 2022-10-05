@@ -35,7 +35,14 @@ https://www.omgubuntu.co.uk/2022/04/how-to-install-firefox-deb-apt-ubuntu-22-04
 
 ## Установка SFX:
 
-[Смотри Linux setup Check Point Mobile Access VPN](https://github.com/pedroeml/checkpoint-mobile-access-vpn#linux-setup-check-point-mobile-access-vpn "Смотри Linux setup Check Point Mobile Access VPN")
+wget https://starkers.keybase.pub/snx_install_linux30.sh?dl=1 -O snx_install.sh
+
+sudo apt-get install libstdc++5:i386 libx11-6:i386 libpam0g:i386
+
+chmod a+rx snx_install.sh
+sudo ./snx_install.sh`
+
+./cshell_install.sh
 
 Если в процессу установки cshell_install.sh ошибка:
 `Cannot delete certificates. Installation aborted.`
