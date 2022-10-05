@@ -8,10 +8,9 @@
 Если система не видит токен, необходимо установить:
 `sudo apt install pcscd pcsc-tools`
 
-По необходимости стартовать сервис pcscd
-sudo systemctl enable pcscd
-
-service pcscd start
+По необходимости стартовать сервис pcscd:\
+`sudo systemctl enable pcscd`\
+`service pcscd start`
 
 
 ## Установка Safenet Authentication Client
