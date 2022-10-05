@@ -10,7 +10,9 @@
 
 По необходимости стартовать сервис pcscd
 sudo systemctl enable pcscd
+
 service pcscd start
+
 
 ## Установка Safenet Authentication Client
 Потребуется установить libssl1.1_1.1.1l-1ubuntu1.2_amd64.deb. 
